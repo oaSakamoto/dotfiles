@@ -6,5 +6,10 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
 
     use 'nvim-treesitter/nvim-treesitter'
+
+    --  manage external editor tooling such as LSP servers, 
+    --  DAP servers, linters, and formatters
+    use { "williamboman/mason.nvim" }
 end)
+
 
