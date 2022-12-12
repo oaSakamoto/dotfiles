@@ -4,4 +4,7 @@ return require('packer').startup(function(use)
 
     --TokyoNigth Theme
     use 'folke/tokyonight.nvim'
+
+    use 'nvim-treesitter/nvim-treesitter'
 end)
+

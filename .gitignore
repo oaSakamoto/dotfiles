@@ -16,3 +16,5 @@ fish/
 obsidian/
 
 polybar/
+
+nvim/plugin/packer_compiled.lua
